@@ -1,6 +1,6 @@
 import { QRCodeSVG } from 'qrcode.react';
 
-const googleFormUrl = 'https://docs.google.com/forms/d/YOUR_FORM_ID/viewform';
+const googleFormUrl = 'https://docs.google.com/forms/d/e/1FAIpQLScPi17edM1Ni76EXMJ4B95yirhFMtPM_X0rk5mdPIf12BDbXQ/viewform?usp=publish-editor';
 const signs = [
   'Seems confused',
   'Forgets an instruction or is unsure of the game, position, score, or opponent',
