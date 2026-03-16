@@ -90,7 +90,7 @@ export default function App() {
         <div className="hero-content">
           <div className="hero-left">
             <span className="hero-pill">Recognize • Respond • Recover</span>
-            <h2>Modern concussion awareness for youth sports communities.</h2>
+            <h2>Concussion Awareness for the Next Generation of Athletes.</h2>
             <h3>Clear guidance for athletes, parents, and coaches.</h3>
             <p>
               INABA&apos;S CAP turns concussion education into something easy to understand and easy to share.
@@ -138,30 +138,6 @@ export default function App() {
       </section>
 
       <main>
-        <section id="survey" className="content-section survey-section">
-          <SectionHeader
-            eyebrow="Survey"
-            title="Take the concussion awareness form"
-            text="Scan the QR code or click the button to open the Google Form."
-          />
-
-          <div className="survey-grid">
-            <article className="card survey-card">
-              <h3>Google Form</h3>
-              <a href={googleFormUrl} target="_blank" rel="noreferrer" className="button primary survey-button">
-                Open Survey
-              </a>
-              <p className="survey-note">{googleFormUrl}</p>
-            </article>
-
-            <article className="card qr-card">
-              <h3>Scan QR Code</h3>
-              <div className="qr-box">
-                <QRCodeSVG value={googleFormUrl} size={220} bgColor="#ffffff" fgColor="#111111" includeMargin />
-              </div>
-            </article>
-          </div>
-        </section>
 
         <section id="learn" className="content-section">
           <SectionHeader
@@ -224,6 +200,31 @@ export default function App() {
             <figure className="pamphlet-card">
               <img src="/images/pamphlet-inside.png" alt="Inside pages of the pamphlet" />
             </figure>
+          </div>
+        </section>
+        
+        <section id="survey" className="content-section survey-section">
+          <SectionHeader
+            eyebrow="Survey"
+            title="Take the concussion awareness form"
+            text="Scan the QR code or click the button to open the Google Form."
+          />
+
+          <div className="survey-grid">
+            <article className="card survey-card">
+              <h3>Google Form</h3>
+              <a href={googleFormUrl} target="_blank" rel="noreferrer" className="button primary survey-button">
+                Open Survey
+              </a>
+              <p className="survey-note">{googleFormUrl}</p>
+            </article>
+
+            <article className="card qr-card">
+              <h3>Scan QR Code</h3>
+              <div className="qr-box">
+                <QRCodeSVG value={googleFormUrl} size={220} bgColor="#ffffff" fgColor="#111111" includeMargin />
+              </div>
+            </article>
           </div>
         </section>
 
