@@ -120,8 +120,10 @@ export default function App() {
           </div>
 
           <div className="hero-right">
-            <div className="hero-logo-shell">
-              <img src="/images/cap-image.png" alt="CAP Logo" />
+            <div className="pamphlet-frame">
+              <div className="hero-logo-shell">
+                <img src="/images/cap-image.png" alt="CAP Logo" />
+              </div>
             </div>
             <div className="hero-mini-grid">
               <div className="mini-card">
