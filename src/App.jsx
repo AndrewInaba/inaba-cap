@@ -190,10 +190,10 @@ export default function App() {
         <section id="learn" className="content-section">
           <SectionHeader
             eyebrow="support"
-            title="Winning Isn’t Worth the Risk: Supporting Concussion Safety in Youth Athletes"
+            title="Winning Isn’t Worth the Risk"
             text=""
           />
-          <div className="two-column">
+          <div className="one-column">
             <article className="card">
               <h3>Safe Behavior</h3>
               <p>

@@ -290,7 +290,7 @@ figure { margin: 0; }
   border: 1px solid #dbe9f7;
 }
 
-.section-header { max-width: 760px; margin-bottom: 24px; }
+.section-header { max-width: 1060px; margin-bottom: 24px; }
 
 .eyebrow {
   display: inline-block;
@@ -325,6 +325,13 @@ figure { margin: 0; }
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 22px;
+}
+
+.one-column {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 22px;
+  padding: 24px;
 }
 
 .card { padding: 28px; }
