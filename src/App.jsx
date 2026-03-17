@@ -187,6 +187,24 @@ export default function App() {
           </div>
         </section>
 
+        <section id="learn" className="content-section">
+          <SectionHeader
+            eyebrow="support"
+            title="Winning Isn’t Worth the Risk: Supporting Concussion Safety in Youth Athletes"
+            text=""
+          />
+          <div className="two-column">
+            <article className="card">
+              <h3>Safe Behavior</h3>
+              <p>
+                The pressure of being successful can impact the athlete's decision after a concussion. It is important that parents support with direct verbal communication about concussion safety for the well being of youth athletes. "Winning a medal is temporary - brain health is lifelong"  
+              </p>
+            </article>
+            
+          </div>
+        </section>
+       
+
         <section id="pamphlet" className="content-section alt">
           <SectionHeader
             eyebrow="Pamphlet"
