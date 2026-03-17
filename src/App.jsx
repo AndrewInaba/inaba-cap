@@ -80,7 +80,7 @@ export default function App() {
             <a href="#learn">Learn</a>
             <a href="#survey">Survey</a>
             <a href="#pamphlet">Pamphlet</a>
-            <a href="#contact" className="nav-highlight">About Me</a>
+            <a href="#contact" className="nav-highlight">About</a>
           </nav>
         </div>
       </header>
@@ -248,7 +248,7 @@ export default function App() {
 
         <section id="contact" className="content-section">
           <SectionHeader
-            eyebrow="About Me"
+            eyebrow="About"
             title="About Me"
             text="I am a motivated high school student with strong academic interests in biology, chemistry, and scientific research. I am passionate about understanding how biological systems function and how scientific knowledge can be applied to real-world challenges. I am currently leading a concussion awareness initiative focused on educating youth athletes and parents about the importance of safety, communication, and responsible decision-making in sports. Through my academic work and projects, I aim to promote science education, health awareness, and athlete safety. My long-term goal is to become a neurologist, where I hope to study the brain and help improve the understanding, prevention, and treatment of neurological injuries and conditions."
           />
