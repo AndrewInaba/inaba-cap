@@ -136,9 +136,24 @@ export default function App() {
           </div>
         </div>
       </section>
-
       <main>
-
+       <section id="learn" className="content-section">
+          <SectionHeader
+            eyebrow="Concussion"
+            title="What is a Concussion"
+            text=""
+          />
+          <div className="one-column">
+            <article className="card">
+              <h3>What is a Concussion</h3>
+              <p>
+              A concussion is a mild traumatic brain injury (mTBI), caused by a blow to the body that makes the brain move violently back and forth inside the skull, potentially damaging brain cells. 
+"  
+              </p>
+            </article>
+            
+          </div>
+        </section>
         <section id="learn" className="content-section">
           <SectionHeader
             eyebrow="Mission"
