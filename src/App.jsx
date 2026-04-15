@@ -147,7 +147,7 @@ export default function App() {
             <article className="card">
               <h3>What is a Concussion</h3>
               <p>
-              A concussion is a mild traumatic brain injury (mTBI), caused by a blow to the body that makes the brain move violently back and forth inside the skull, potentially damaging brain cells. 
+              A concussion is a mild <b>T</b>raumatic <b>B</b>rain <b>I</b>njury (mTBI) caused by a blow to the body that makes the brain move violently back and forth inside the skull, potentially damaging brain cells. 
               </p>
             </article>
             </div>
