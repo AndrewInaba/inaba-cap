@@ -79,6 +79,7 @@ export default function App() {
           <nav className="header-nav">
             <a href="#learn">Learn</a>
             <a href="#survey">Survey</a>
+            <a href="#testimonials">Testmonials</a>
             <a href="#pamphlet">Pamphlet</a>
             <a href="#contact" className="nav-highlight">About</a>
           </nav>
@@ -149,7 +150,17 @@ export default function App() {
               <p>
               A concussion is a mild <b>T</b>raumatic <b>B</b>rain <b>I</b>njury (mTBI) caused by a blow to the body that makes the brain move violently back and forth inside the skull, potentially damaging brain cells. 
               </p>
+              <h3>— Andrew Inaba —  Founder of Concussion Awareness Program.</h3>
+
+              <video
+                controls
+                style={{ width: "100%", borderRadius: "16px", marginBottom: "1rem" }}
+              >
+                <source src="https://pub-59b5a073692a4ab1819c704803952dec.r2.dev/Inabas-CAP-Presentation.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </article>
+
             </div>
         </section>
         <section id="learn" className="content-section">
@@ -233,7 +244,47 @@ Overall, 50-70% of concussions not being reported. Concussions are serious becau
             
           </div>
         </section>
-       
+
+        <section id="testimonials" className="content-section">
+          <SectionHeader
+            eyebrow="Testimonials"
+            title="What coaches are saying"
+            text="Real feedback from those impacted by concussion education."
+          />
+
+          <div className="one-column">
+            <article className="card">
+              <h3>— Coach Fabian Yepez —  FL Premier FC.</h3>
+
+              <video
+                controls
+                style={{ width: "100%", borderRadius: "16px", marginBottom: "1rem" }}
+              >
+                <source src="https://pub-59b5a073692a4ab1819c704803952dec.r2.dev/coach-fabian-yepez.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+
+            </article>
+          </div>
+          <div className="one-column">
+            <article className="card">
+
+              <p style={{ marginTop: "0.5rem", fontWeight: "bold" }}>
+                — Asher Moleiro — Soccer player.
+              </p>
+
+              <p style={{ fontStyle: "italic" }}>
+                "I believe the audience really connected with the presentation when they
+                started to understand the severity of head injuries and the lifelong
+                impacts they can have on someone who is impacted."
+              </p>
+
+
+            </article>
+          </div>   
+        </section>  
+
+  
 
         <section id="pamphlet" className="content-section alt">
           <SectionHeader
