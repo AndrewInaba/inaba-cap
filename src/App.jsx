@@ -156,7 +156,7 @@ export default function App() {
                 controls
                 style={{ width: "100%", borderRadius: "16px", marginBottom: "1rem" }}
               >
-                <source src="https://pub-59b5a073692a4ab1819c704803952dec.r2.dev/Inabas-CAP-Presentation.mp4" type="video/mp4" />
+                <source src="https://pub-59b5a073692a4ab1819c704803952dec.r2.dev/Inabas-CAP-Presentation.mp4#t=72" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </article>
@@ -260,7 +260,7 @@ Overall, 50-70% of concussions not being reported. Concussions are serious becau
                 controls
                 style={{ width: "100%", borderRadius: "16px", marginBottom: "1rem" }}
               >
-                <source src="https://pub-59b5a073692a4ab1819c704803952dec.r2.dev/coach-fabian-yepez.mp4" type="video/mp4" />
+                <source src="https://pub-59b5a073692a4ab1819c704803952dec.r2.dev/coach-fabian-yepez.mp4#t=1" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
 
@@ -344,7 +344,7 @@ Overall, 50-70% of concussions not being reported. Concussions are serious becau
             </div>
             <div>
               <span className="contact-label">Email</span>
-              <p><a href="mailto:inabaandrew@gmail.com">inabaandrew@gmail.com</a></p>
+              <p><a href="mailto:inabacap@gmail.com">inabacap@gmail.com</a></p>
             </div>
           </div>
         </section>
